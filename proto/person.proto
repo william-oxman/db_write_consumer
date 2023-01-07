@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./";
+
+package person;
+
+message Person {
+  string id = 1;
+  string lastname = 2;
+  string firstname = 3;
+  string address = 4;
+  string city = 5;
+}
